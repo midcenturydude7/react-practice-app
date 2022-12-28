@@ -1,5 +1,36 @@
-html, body {
-  margin: 0;
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0; 
   padding: 0;
+}
+
+body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header-wrapper {
+  margin-bottom: 1em;
+}
+
+.header-image {
+  width: 40px;
+}
+
+.card-title {
+  font-size: 2.25rem;
+  margin-bottom: .5em;
+}
+
+.card-list {
+  font-size: 1.25rem;
+  margin-left: 2.75em;
+}
+
+.card-list-item + .card-list-item {
+  margin-top: .4em;
 }
