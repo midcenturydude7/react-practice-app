@@ -1,10 +1,12 @@
 function Footer() {
   return (
-    <div className="footer-wrapper">
+    <footer className="footer-wrapper">
       <div className="footer-background">
-        <p>© 2023 Griffes development. All rights reserved.</p>
+        <small className="footer-text">
+          © 2023 Griffes development. All rights reserved.
+        </small>
       </div>
-    </div>
+    </footer>
   );
 }
 
